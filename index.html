@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+let hater = {
+    firstName: 'Bill',
+    lastName: 'Gates',
+    getName() {
+        return '${this.firstName} ${this.lastName}';
+    }
+}
+
+
+// function greet(name) {
+//   console.log(`Hello, ${name}!`);
+// }
+
+// const person = {
+//     name: 'Vladimir',
+//     age: 34,
+//     greet() {
+//         console.log(`Привет, меня зовут ${this.name} и мне ${this.age} лет.`);
+//     } 
+// };
+
+// person.greet();
+
+
+//      // Функция, которая приветствует человека по имени
+// function greet(name) {
+//   console.log(`Hello, ${name}!`);
+// }
+
+// // Декоратор, который добавляет возможность приветствовать на разных языках
+// function languageDecorator(greetFunction) {
+//   const greetings = {
+//     en: "Hello",
+//     fr: "Bonjour",
+//     es: "Hola",
+//   };
+
+//   return function(name, language = "en") {
+//     const greeting = greetings[language] || greetings["en"];
+//     console.log(`${greeting}, ${name}!`);
+//   }
+// }
+
+// // Использование декоратора
+// const greetWithLanguage = languageDecorator(greet);
+
+// greet("John"); // Hello, John!
+// greetWithLanguage("John", "fr"); // Bonjour, John!
+// greetWithLanguage("John", "es"); // Hola, John!
+
+
+    </script>    
+    
+</body>
+</html>
